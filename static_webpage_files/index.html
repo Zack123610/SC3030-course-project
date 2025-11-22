@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP/2 vs HTTP/3 Performance Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Performance Testing Page</h1>
+        <p>This page is designed to test HTTP/2 and HTTP/3 performance metrics</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to the Performance Test</h2>
+            <p>This page loads multiple resources to measure:</p>
+            <ul>
+                <li>Time To First Byte (TTFB)</li>
+                <li>Total Page Load Time</li>
+                <li>Largest Contentful Paint (LCP)</li>
+            </ul>
+        </section>
+
+        <section class="gallery">
+            <h2>Image Gallery</h2>
+            <div class="image-container">
+                <img src="img1.jpg" alt="Test Image 1" class="lcp-candidate" id="img1">
+                <img src="img2.jpg" alt="Test Image 2" id="img2">
+                <img src="img3.jpg" alt="Test Image 3" id="img3">
+            </div>
+        </section>
+
+        <section class="content">
+            <h2>Content Section</h2>
+            <p>This section contains additional content to make the page more realistic.</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="card">
+                    <h3>Card 2</h3>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="card">
+                    <h3>Card 3</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Performance Test Page - HTTP/2 vs HTTP/3 Comparison</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
